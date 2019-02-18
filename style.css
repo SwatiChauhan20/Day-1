@@ -1,0 +1,91 @@
+body{
+	background-color: lightgray;
+}
+.row{
+	margin: 0px;
+}
+.body_content{
+	padding: 30px 100px;
+}
+@font-face {
+	font-family: 'rubikregular';
+	src: url('C:\Users\Pc 2\Desktop\SWATI\7th-feb\fonts\New folder\rubik-regular-webfont.woff2') format('woff2'),
+	url('C:\Users\Pc 2\Desktop\SWATI\7th-feb\fonts\New folder\rubik-regular-webfont.woff') format('woff'),
+	url('C:\Users\Pc 2\Desktop\SWATI\7th-feb\fonts\New folder\rubik-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+.bgimg{
+	background-image: url(images/bgimg.jpg);
+	padding: 130px;
+	background-size: cover;
+	margin-bottom: 30px;
+	height: 500px;
+}
+.content{
+	border: 1px solid white;
+	width: 200px;
+	margin-left: 100px;
+	background-color: white;
+	opacity: 0.9;
+	border-radius: 5px;
+	padding:10px;
+}
+.content h1{
+	color: black;
+	text-align: center;
+	font-family: rubikregular;
+}
+.content button{
+	color: white;
+	background-color: lightpink;
+	padding: 13px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	margin-left: 40px;
+}
+img{
+	height: 200px;
+	width: 300px;
+	padding: 10px 20px;
+}
+.desc{
+	padding: 10px;
+}
+.footer_content{
+	background-color: black;
+	color: white;
+	padding: 15px;	
+	text-align: center;
+}
+.fa {
+	-webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+@media (max-width: 767){
+	.content{
+		width: 100px;
+	}
+	.bgimg{
+		padding: 80px;
+		background-size: cover;
+	}
+}
+@media (max-width: 576){
+	.content{
+		width: 80px;
+	}
+	.bgimg{
+		padding-left:  10px;
+		background-size: cover;
+	}
+}
